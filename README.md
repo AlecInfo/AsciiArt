@@ -10,11 +10,11 @@
 L’art ASCII consiste à réaliser des images uniquement à l'aide des lettres et caractères spéciaux contenus dans le code ASCII.
 L'American Standard Code for Information Interchange (Code américain normalisé pour l'échange d'information), plus connu sous l'acronyme ASCII (/as.ki/, Écouter), est une norme informatique de codage de caractères apparue dans les années 1960.
 
-### Fonctionnement
-* Récupérer une image dans les fichiers
-* La convertir en couleurs girses
-* Changer chaque pixel sur un caractère donné en fonction de la valeur du niveaux de gris
-* Afficher l'image modifier
+## Fonctionnement
+1. Récupérer une image dans les fichiers
+2. La convertir en couleurs girses
+3. Changer chaque pixel sur un caractère donné en fonction de la valeur du niveaux de gris
+4. Afficher l'image modifier
 
 <p align="right">(<a href="#readme-top">Retour au top</a>)</p>
 
