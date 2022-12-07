@@ -1,33 +1,20 @@
 
 <a name="readme-top"></a>
 
-<h1 align="center">
-  <br>
-  AsciiArt
-  <br>
-</h1>
+<h1> AsciiArt </h1>
 
 ![ex image](https://i.pinimg.com/originals/bc/e5/5a/bce55aa451f59852ed2d76217b087ddc.png)
 
 ## Description
 
-Ce dépot permet de savoir comment bien commencer une projet sous Xamarin forms. Le détail de tous les points inportant de xamarin seront dans la [documentation](https://github.com/AlecInfo/NewProject_Xamarin/wiki). Exemple:
+L’art ASCII consiste à réaliser des images uniquement à l'aide des lettres et caractères spéciaux contenus dans le code ASCII.
+L'American Standard Code for Information Interchange (Code américain normalisé pour l'échange d'information), plus connu sous l'acronyme ASCII (/as.ki/, Écouter), est une norme informatique de codage de caractères apparue dans les années 1960.
 
-* [Installation de Xamarin forms](https://github.com/AlecInfo/NewProject_Xamarin/wiki/Installation-Xamarin-Forms)
-* etc ...
-
-## Commencer
-1. Clone le repo
-   ```sh
-   git clone https://github.com/AlecInfo/NewProject_Xamarin.git
-   ```
-2. Clone (Alternative) Télécharger le en zip
-3. Remplacer les fichiers source du code par celui du zip
-4. Remplacer dans les fichiers su zip `NameOfProject` par le nom de l'application
-
-## License
-
-[MIT](https://github.com/AlecInfo/NewProject_Xamarin/blob/main/LICENSE)
+### Fonctionnement
+* Récupérer une image dans les fichiers
+* La convertir en couleurs girses
+* Changer chaque pixel sur un caractère donné en fonction de la valeur du niveaux de gris
+* Afficher l'image modifier
 
 <p align="right">(<a href="#readme-top">Retour au top</a>)</p>
 
