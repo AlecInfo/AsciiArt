@@ -11,7 +11,7 @@ L’art ASCII consiste à réaliser des images uniquement à l'aide des lettres 
 
 L'American Standard Code for Information Interchange (Code américain normalisé pour l'échange d'information), plus connu sous l'acronyme ASCII (/as.ki/, Écouter), est une norme informatique de codage de caractères apparue dans les années 1960.
 
-Cet algorithme est consu en Javascript.
+Cet algorithme est conçu en Javascript.
 
 ## Fonctionnement
 1. Récupérer une image dans les fichiers
