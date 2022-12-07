@@ -25,7 +25,7 @@ Cet algorithme est conçu en Javascript.
 Site web [ici](https://alecinfo.github.io/AsciiArt/)
 1. Cliquer sur le bouton pour choisir une image
 2. L'image sélectionnée sera convertie en Ascii
-3. Pour recommencer le processus faite F5 ou appuyer sur actualiser la page
+3. Pour recommencer le processus faite appuyer sur actualiser la page, F5 ou appuyer sur le bouton refresh
 
 <p align="right">(<a href="#readme-top">Retour au top</a>)</p>
 
