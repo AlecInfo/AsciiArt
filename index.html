@@ -15,9 +15,10 @@
         <p>Upload a picture and turn it into pure ASCII masterpiece!</p>
     </header>
 
-    <input type="file" name="picture" />
+    <input type="file" name="picture" accept=".jpg, .jpeg, .png"/>
     <canvas id="preview" style="display: none;"></canvas>
     <pre id="ascii"></pre>
+    <button id="btnRefresh" type="submit" onClick="RefreshPage()" style="display: none;">Refresh</button>
     
     <footer>
         <p>Piette Alec © 2022 &bull; <a href="https://github.com/AlecInfo/AsciiArt">Source code <i class="icon ion-social-github"></i></p>
@@ -26,5 +27,6 @@
 </body>
 
 <script src="js/index.js"></script>
+<script src="js/imageConverter.js"></script>
 
 </html>
