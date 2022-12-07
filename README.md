@@ -14,10 +14,18 @@ L'American Standard Code for Information Interchange (Code américain normalisé
 Cet algorithme est conçu en Javascript.
 
 ## Fonctionnement
+
 1. Récupérer une image dans les fichiers
 2. La convertir en couleurs girses
 3. Changer chaque pixel sur un caractère donné en fonction de la valeur du niveaux de gris
 4. Afficher l'image modifier
+
+## Expérimenter
+
+Site web [ici](https://alecinfo.github.io/AsciiArt/)
+1. Cliquer sur le bouton pour choisir une image
+2. L'image sélectionnée sera convertie
+3. Pour recommencer le processus faite F5 ou appuyer sur actualiser la page
 
 <p align="right">(<a href="#readme-top">Retour au top</a>)</p>
 
