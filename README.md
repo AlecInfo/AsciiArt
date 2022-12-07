@@ -3,22 +3,9 @@
 
 <h1 align="center">
   <br>
-  <a href="http://www.amitmerchant.com/electron-markdownify"><img src="https://cdn.freebiesupply.com/logos/thumbs/2x/xamarin-logo.png" alt="Markdownify" width="250"></a>
-  <br>
   AsciiArt
   <br>
 </h1>
-
-<p align="center">
-  <a href="https://github.com/xamarin/Xamarin.Forms"><img src="https://img.shields.io/nuget/v/Xamarin.Forms.svg?label=Version"></a>
-  <a href="https://github.com/AlecInfo/NewProject_Xamarin/wiki"><img src="https://img.shields.io/badge/docs-up%20to%20date-brightgreen.svg"></a>
-</p>
-
-<p align="center">
-  <a href="#description">Description</a> •
-  <a href="#commencer">Commencer</a> •
-  <a href="#license">License</a>
-</p>
 
 ![ex image](https://i.pinimg.com/originals/bc/e5/5a/bce55aa451f59852ed2d76217b087ddc.png)
 
