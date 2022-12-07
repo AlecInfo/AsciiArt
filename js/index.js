@@ -41,8 +41,8 @@ const convertToGrayScales = (context, width, height) => {
     return grayScales;
 };
 
-const MAXIMUM_WIDTH = 80;
-const MAXIMUM_HEIGHT = 80;
+const MAXIMUM_WIDTH = 90;
+const MAXIMUM_HEIGHT = 90;
 
 const clampDimensions = (width, height) => {
     const rectifiedWidth = Math.floor(getFontRatio() * width);
@@ -86,6 +86,8 @@ fileInput.onchange = (e) => {
 };
 
 const grayRamp = '$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/|()1{}[]?-_+~<>i!lI;:,"^`\'. ';
+//const grayRamp = '@#+=.';
+//const grayRamp = '@%#*+=-:.';
 const rampLength = grayRamp.length;
 
 const getCharacterForGrayScale = grayScale => grayRamp[Math.ceil((rampLength - 1) * grayScale / 255)];
