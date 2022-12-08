@@ -17,7 +17,7 @@ Cet algorithme est conçu en Javascript.
 
 1. Récupérer une image dans les fichiers
 2. La convertir en couleurs girses
-3. Changer chaque pixel sur un caractère donné en fonction de la valeur du niveaux de gris
+3. Changer chaque pixel par un caractère donné en fonction de la valeur du niveaux de gris
 4. Afficher l'image modifier
 
 ## Expérimenter
