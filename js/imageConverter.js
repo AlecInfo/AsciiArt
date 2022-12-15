@@ -42,20 +42,33 @@ const convertToGrayScales = (context, width, height) => {
     return grayScales;
 };
 
-const MAXIMUM_WIDTH = 85;
-const MAXIMUM_HEIGHT = 85;
+
+var w = window.innerWidth;
+
+var width_max = 85;
+var height_max = 85;
+
+if (w <= 480) {
+    width_max = 23;
+    height_max = 23;
+}else if(w <= 768){
+    width_max = 40;
+    height_max = 40;
+}
+
+
 
 const clampDimensions = (width, height) => {
     const rectifiedWidth = Math.floor(getFontRatio() * width);
 
-    if (height > MAXIMUM_HEIGHT) {
-        const reducedWidth = Math.floor(rectifiedWidth * MAXIMUM_HEIGHT / height);
-        return [reducedWidth, MAXIMUM_HEIGHT];
+    if (height > height_max) {
+        const reducedWidth = Math.floor(rectifiedWidth * height_max / height);
+        return [reducedWidth, height_max];
     }
 
-    if (width > MAXIMUM_WIDTH) {
-        const reducedHeight = Math.floor(height * MAXIMUM_WIDTH / rectifiedWidth);
-        return [MAXIMUM_WIDTH, reducedHeight];
+    if (width > width_max) {
+        const reducedHeight = Math.floor(height * width_max / rectifiedWidth);
+        return [width_max, reducedHeight];
     }
 
     return [rectifiedWidth, height];

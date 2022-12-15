@@ -17,7 +17,7 @@ Cet algorithme est conçu en Javascript.
 
 1. Récupérer une image dans les fichiers
 2. La convertir en couleurs girses
-3. Changer chaque pixel sur un caractère donné en fonction de la valeur du niveaux de gris
+3. Changer chaque pixel par un caractère donné en fonction de la valeur du niveaux de gris
 4. Afficher l'image modifier
 
 ## Expérimenter
@@ -25,7 +25,7 @@ Cet algorithme est conçu en Javascript.
 Site web [ici](https://alecinfo.github.io/AsciiArt/)
 1. Cliquer sur le bouton pour choisir une image
 2. L'image sélectionnée sera convertie en Ascii
-3. Pour recommencer le processus faite F5 ou appuyer sur actualiser la page
+3. Pour recommencer le processus appuyer sur actualiser la page, F5 ou appuyer sur le bouton refresh
 
 <p align="right">(<a href="#readme-top">Retour au top</a>)</p>
 
